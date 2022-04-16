@@ -3,7 +3,7 @@ int main(){
 int section;
 float temp_input,far_input,far_to_cel,cel_input,cel_to_far,dis_input,km_input,km_to_miles,miles_input,miles_to_km,weight_input,kg_input, kg_to_pound,pound_input,pound_to_kg;
 printf("Unit Converter\n");
-printf("Choose the type of conversation\n");
+printf("Choose the type of conversion\n");
 printf("Press 1 for Temprature conversion\n");
 printf("Press 2 for Distance conversion\n");
 printf("Press 3 for Weight conversion\n");
@@ -18,10 +18,10 @@ if(section == 1)
         printf("Enter the Fahrenheit degree: \n");
         scanf("%f",&far_input);
         far_to_cel =  ((far_input-32) * (5.0/9.0));
-        printf("Temprature in Celcius: %.2f \n",far_to_cel);
+        printf("Temprature in Celsius: %.2f \n",far_to_cel);
       }
     else{
-        printf("Enter the Celcius degree: \n");
+        printf("Enter the Celsius degree: \n");
         scanf("%f",&cel_input);
         cel_to_far =  ((9.0/5.0)*cel_input + 32);
         printf("Temprature in Fahrenheit: %.2f \n",cel_to_far);
@@ -64,5 +64,3 @@ else{
         }
 }
 }
-
-
