@@ -57,7 +57,7 @@ else{
         printf("Weight in Pounds is: %.2f \n",kg_to_pound);
     }
     else{
-        printf("Enter the weight in Pounds : \n");
+        printf("Enter the weight in Pounds: \n");
         scanf("%f",&pound_input);
         pound_to_kg = pound_input * 0.453592;
         printf("Weight in Kilogram: %.2f",pound_to_kg);
